@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#bookimg {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#suzanneimg {
+    width: 500px;
+    height: 500px;
+    align-content: center;
+}
+
+#jenimg {
+    width: 500px;
+    height: 500px;
+    align-content: center;
+    margin-left: 50;
+    margin-right: 50;
+}
+
+#potterimg {
+    width: 530px;
+    height: 500px;
+}
+
+#inspire {
+    padding: 0px;
+    text-align: center;
+    font-size: 72px;
+    background: linear-gradient(#eb3434 0%, #349beb 100%);
+}
+
+#gamesimg {
+    width: 500px;
+    height: 500px;
+}
+
+#jaronimg {
+    width: 500px;
+    height: 550px;
+}
+
+#runnerimg {
+    width: 500px;
+    height: 550px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    background: linear-gradient(#eb6834 0%, #eb345f 100%);
+    display: table;
+    width: 100%;
+    z-index: 9;
+}
+
+#works {
+
+    padding: 0px;
+    text-align: center;
+    background: #349beb 0%, #51cf5f 100%);
+
+}
+
+
+h1 {
+
+    font-size: 40px;
+    line-height: 2;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 0px;
+    text-align: center;
+    font-size: 942px;
+    background: linear-gradient(#3443eb 0%, #e834eb 100%);
+}
+
+h2 {
+    max-width: 450px;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 1.3;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+#books {
+    padding: 0px;
+    text-align: center;
+    font-size: 942px;
+    background: linear-gradient(#771a8a 0%, #8a1a23 100%);
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: "Noto Sans JP", sans-serif;
+
+}
+
+h3 {
+    max-width: 450px;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 1.3;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.line {
+    height: 6px;
+    background-color: cadetblue;
+    width: 300px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 10px auto;
+    font-size: 13px;
+    line-height: 1.3;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.group-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 5px;
+    font-size: 10px;
+}
+
+.links:hover {
+    background-color: black;
+    font-size: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#gof_quote {
+    font-style: italic;
+}
+
+a {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+li {
+    display: inline;
+}
+
+li {
+    float: left;
+}
+
+#contact {
+    padding: 0px;
+    text-align: center;
+    font-size: 72px;
+    background: linear-gradient(#771a8a 0%, #eb9634 100%);
+}
